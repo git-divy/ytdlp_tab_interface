@@ -6,10 +6,6 @@ import requests
 
 app = Flask(__name__)
 
-ydl_opts = {
-    'cookiesfromfile' : 'cookies.txt',
-}
-
 ydl = YoutubeDL(ydl_opts)
 
 
